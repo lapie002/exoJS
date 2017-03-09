@@ -11,6 +11,12 @@ var boucler = true;
 //patatobeur, Sam11360, elo062, hermeline, Biciclet,
 var members = ["Aida67", "lapie002", "anneserrano", "Jennysmille", "nunkabuk", "RCosson", "kaonb-ax", "FerEmilie", "crazychouwi", "KiluaZoldyc", "patatobeur", "Sam11360", "elo062", "hermeline", "Biciclet"];
 // SI la variable boucler vaut true ALORS
+
+
+// autre methode pas besoin de onclick dans le html
+//var clicked = document.getElementById('check');
+//clicked.addEventListener("click", function(){...});
+
 function myFunction(){
           if(boucler)
           // Bouclez sur le tableau que vous avez déclaré ci-dessus
