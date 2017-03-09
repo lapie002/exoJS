@@ -18,7 +18,7 @@ function myFunction(){
                   var nouveauDiv = document.createElement("div");
                   var monP = document.getElementById('check');
 
-                  nouveauDiv.innerHTML = "<p>" + members[i] + "</p>";
+                  nouveauDiv.innerHTML = "<p>Affiche " + members[i] + "</p>";
                   monP.appendChild(nouveauDiv);
 
                   console.log("Affiche "+"lapie002");
