@@ -7,7 +7,9 @@ Mettre vos solutions dans un fichier solutions.md à la racine de votre dépot
 // Declarez une variable nommée "boucler" contenant true
 var boucler = true;
 
-// Declarez un tableau members contenant Aida67, lapie002, anneserrano, Jennysmille, nunkabuk, RCosson, kaonb-ax, FerEmilie, crazychouwi, KiluaZoldyc, patatobeur, Sam11360, elo062, hermeline, Biciclet,
+// Declarez un tableau members contenant Aida67, lapie002, anneserrano,
+//Jennysmille, nunkabuk, RCosson, kaonb-ax, FerEmilie, crazychouwi, KiluaZoldyc,
+//patatobeur, Sam11360, elo062, hermeline, Biciclet,
 var members = ["Aida67", "lapie002", "anneserrano", "Jennysmille", "nunkabuk", "RCosson", "kaonb-ax", "FerEmilie", "crazychouwi", "KiluaZoldyc", "patatobeur", "Sam11360", "elo062", "hermeline", "Biciclet"];
 // SI la variable boucler vaut true ALORS
 function myFunction(){
@@ -15,7 +17,9 @@ function myFunction(){
           // Bouclez sur le tableau que vous avez déclaré ci-dessus
           {
             for(var i=0;i<members.length;i++){
-            // Mettre un switch pour qu'au moment où la boucle se trouve sur votre pseudo cela ajoute "Affiche " devant votre pseudo dans la console et sur l'écran et par defaut seulement le pseudo des autres
+            // Mettre un switch pour qu'au moment où la boucle se trouve sur
+            //votre pseudo cela ajoute "Affiche " devant votre pseudo dans
+            //la console et sur l'écran et par defaut seulement le pseudo des autres
             switch(members[i]) {
               case "lapie002":
                   // sur ecran
